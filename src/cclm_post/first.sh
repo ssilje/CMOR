@@ -138,6 +138,7 @@ while [ ${CURRENT_DATE} -le ${STOP_DATE} ]
 do
   YYYY_MM=${YYYY}_${MM}
   CURRDIR=${YYYY}/output
+ 
   echon "################################"
   echon "# Processing time ${YYYY_MM}"
   echon "################################"
