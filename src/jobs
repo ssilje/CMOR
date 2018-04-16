@@ -1,7 +1,7 @@
 module load daint-gpu
 module load netCDF NCO CDO NCL ncview
-module load netcdf-python
-
+#module load netcdf-python
+module load netcdf-python/1.2.9-CrayGNU-17.08-python-3
 
 #First step
 sbatch master_post.sh -x historical -g MIROC-MIROC5 -s 194912 -e 2005
